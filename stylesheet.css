@@ -42,7 +42,8 @@ p
 body
 {
   margin: 0px;
-  }
+  height: 100%;
+}
 
 a:link, a:visited
 {
@@ -76,4 +77,41 @@ a:link, a:visited
   margin-left: 30px;
   border-radius: 15px;
   margin-top: 3.3px;
+}
+
+.top
+{
+  background-image: url("./pictures/fond.png");
+  height: 50%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 80px;
+}
+
+#h11
+{
+  justify-content: center;
+  font-family: "fjalla_oneregular";
+  font-size: 80px;
+  color: #FFFFFF;
+  margin: 0;
+  text-shadow: #4f4f4f 1px 4px 6px;
+}
+
+#h22
+{
+  justify-content: center;
+  font-family: "fjalla_oneregular";
+  font-size: 30px;
+  color: #FFFFFF;
+  margin: 0;
+  text-shadow: #4f4f4f 0.1em 0.1em 0.2em;
+}
+
+html
+{
+  height: 100%;
 }
