@@ -143,6 +143,42 @@ body{
     cursor: pointer;
 }
 
+#button1
+{
+  color: black;
+}
+
+.footeraa
+{
+  color: white;
+}
+
+a:link,
+a:visited
+{
+    text-decoration: none;
+}
+
+.button1:hover
+{
+  background-color: black;
+  color: white;
+}
+
+.button1:visited
+{
+  color: currentColor;
+}
+
+#title11:hover
+{
+    font-weight: bold;
+}
+
+.content_box_mobile
+{
+    color: white;
+}
 
 @media (max-width: 1000px) {
     .text_content_info{
@@ -233,40 +269,9 @@ body{
     }
 }
 
+@media (max-width: 600px){
 
-#button1
-{
-  color: black;
-}
-
-.footeraa
-{
-  color: white;
-}
-
-a:link,
-a:visited
-{
-    text-decoration: none;
-}
-
-.button1:hover
-{
-  background-color: black;
-  color: white;
-}
-
-.button1:visited
-{
-  color: currentColor;
-}
-
-#title11:hover
-{
-    font-weight: bold;
-}
-
-.content_box_mobile
-{
-    color: white;
+.header h1, h2{
+    line-height: initial;
+    }
 }
