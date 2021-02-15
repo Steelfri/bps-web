@@ -1,24 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	    <meta charset="utf-8" />
-	    <link rel="stylesheet" href="stylesheet.css" />
-	    <link rel="icon" href="pictures/bpslogo.jpg">
-	    <title>BPS - Big Pump Signal 📈</title>
-	</head>
-	<body>
-		<nav class="navbar">
-			<p id="title11">BPS</p>
-			<img id="imaget" src="pictures/bpslogo.jpg" height="40px" weight="40px">
-			<p class="navt"><a href="https://discord.gg/pump/">Discord</a></p>
-			<p class="navt"><a href="https://t.me/s/bigpumpsignal">Telegram</a></p>
-		</nav>
-		<div class="top">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="icon" href="pictures/bpslogo.jpg">
+    <title>BPS - Big Pump Signal 📈</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="flex_contain_page">
+		<div class="navbar">
+			<div id="nav_content">
+				<img id="imaget" src="pictures/bpslogo.jpg" alt="icone_logo">
+				<p id="title11">BPS</p>
+			</div>
+
+			<div id="mobile_burger" onclick="function openBurger(){
+				if (document.querySelector('#mobile_navigation').style.top === '-300px' || document.querySelector('#mobile_navigation').style.top === ''){
+					document.querySelector('#mobile_navigation').style.top = '60px';
+				}else {
+					document.querySelector('#mobile_navigation').style.top = '-300px';
+				}
+
+			} openBurger()">
+				<div id="bar1"></div>
+				<div id="bar2"></div>
+				<div id="bar3"></div>
+			</div>
+
+			<div id="navigation_link">
+				<a href="https://discord.gg/pump/"><p>Discord</p></a>
+				<a href="https://t.me/s/bigpumpsignal"><p>Telegram</p></a>
+			</div>
+		</div>
+		<div id="mobile_navigation">
+			<a href="https://discord.gg/pump/">
+				<div class="content_box_mobile"><p>DISCORD</p></div>
+			</a>
+			<a href="https://t.me/s/bigpumpsignal">
+				<div class="content_box_mobile"><p>TELEGRAM</p></div>
+			</a>
+		</div>
+		<div class="header">
 			<h1 id="h11">Big Pump Signal</h1>
 			<h2 id="h22">The largest pump communauty</h2>
 		</div>
-		<div>
-			
+		<div class="content_page">
+			<h1 style="margin-top: 50px;">Who are we ?</h1>
+			<div class="text_content_info">
+				<p>
+					At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+				</p>
+				<img style="margin-left: 61px;" src="pictures/51O6ByIc8OL._AC_SX466_.jpg">
+			</div>
+			<div id="text_content_poruquoi">
+
+			</div>
+			<h1 style="margin-top: 50px;">Why do you want to join us ?</h1>
+			<div class="text_content_info" style="text-align: right; flex-direction: row-reverse">
+				<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains</p>
+				<img style="margin-right: 61px;filter: invert(56%) sepia(94%) saturate(449%) hue-rotate(343deg) brightness(99%) contrast(92%);" src="https://www.pngrepo.com/download/201056/vector-illustration.png">
+			</div>
+			<div style="margin-top:100px;height: 70px;display: flex;justify-content: center;align-items: center;" id="join_button">
+				<a class="button1" href="https://discord.gg/pump">
+					<div class="button1" style="text-align: center; border: 1px solid; border-radius: 10px; cursor: pointer">
+						<a class="button1" href="https://discord.gg/pump">
+							<p style="text-decoration: none; padding-left: 20px;padding-right: 20px;">Join us now !</p>
+						</a>
+					</div>				
+			</div>
 		</div>
-	</body>
-</html>
+		<div class="footer_page">
+			<p><a class="footeraa" href="https://github.com/steelfri/bps-web">Informations</a></p>
+			<p><a class ="footeraa" href="https://discord.gg/pump/">Discord</a></p>
+			<p><a class ="footeraa" href="https://t.me/s/bigpumpsignal/">Telegram</a></p>
+			<p><a class="footeraa" href="https://github.com/steelfri/bps-web">Github</a></p>
+		</div>
+	</div>
+</body>
